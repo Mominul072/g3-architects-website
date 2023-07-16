@@ -1,6 +1,10 @@
 /* work sans font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* shared styles */
 *{
@@ -8,6 +12,7 @@
 }
 .text-light-gray{
     color: #727272;
+    margin-top: 30px;
 }
 
 .btn-primary{
@@ -21,6 +26,7 @@
     font-weight: 600px;
     cursor: pointer;
     border: 0px;
+    margin-top: 30px;
     
 }
 .section-title{
@@ -28,6 +34,7 @@
     /* font-size: 45px; */
     font-size: 2.8rem;
     font-weight: 700;
+    padding-bottom: 30px;
    
 }
 /* header styles */
@@ -177,6 +184,8 @@ main{
 .facts-card-container{
     display: flex;
     justify-content: space-around;
+    margin-top:80px;
+    margin-bottom:80px;
 }
 .facts-card-container .card{
     border-radius: 8px;
@@ -201,6 +210,7 @@ main{
 /* sponsors styles */
 .sponsors{
     text-align: center;
+
 }
 .sponsors-img-container{
     display: flex;
@@ -214,6 +224,28 @@ main{
     
 }
 
+/* footer section */
+footer{
+
+    /* width: 1440px; */
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 200px 240px 216px 240px ;
+  
+    padding: 50px 0;
+    
+}
+.footer-description{
+    align-items: center;
+    color: var(--dark-02, #424242);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    
+ 
+   
+}
 
 /* responsive media query */
 /* mobile devices */
@@ -246,6 +278,7 @@ main{
     .facts-card-container{
         gap: 20px;
     }
+    
 }
 
 /* tablet devices or medium device */
